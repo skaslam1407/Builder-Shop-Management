@@ -42,7 +42,7 @@ const bn: Record<string, string> = {
   'Signing in…': 'সাইন ইন হচ্ছে…',
   'First run': 'প্রথমবার চালু',
   'Use your shop application account.': 'আপনার দোকানের অ্যাকাউন্ট ব্যবহার করুন।',
-  'Run the shop counter without an internet connection.': 'ইন্টারনেট সংযোগ ছাড়াই দোকানের কাজ চালান।',
+  'Offline-first shop management.': 'অনলাইন না কেড়ে দোকান管理理。',
   'Customers, materials, GST invoices, payments, stock, and reports stay on this computer in a single protected local database.': 'গ্রাহক, উপকরণ, জিএসটি চালান, পেমেন্ট, স্টক এবং রিপোর্ট এই কম্পিউটারের একটি সুরক্ষিত স্থানীয় ডেটাবেসে থাকে।',
   'GST and non-GST billing': 'জিএসটি ও জিএসটি-বহির্ভূত বিলিং',
   'Integer-paise financial calculations': 'পূর্ণ পয়সায় আর্থিক হিসাব',

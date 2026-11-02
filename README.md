@@ -1,17 +1,20 @@
-# Construction Builder Shop Management
+# Builder Shop Management
 
 **Offline-first Windows and Linux desktop application** for construction material and hardware shop owners. Manage customers, materials, stock, purchases, GST/non-GST sales invoices, payments, expenses, reports, backup, and data import/export.
 
 ![Builder Shop Management](src-tauri/icons/icon.png)
 
 ---
-## 🚀 v1.0 – Stable Release
+## ✅ v1.0 – All Features Complete
 
 - **Desktop App Icon**: Multi-resolution icon set (`icon.png`, `icon.ico`, `icon.icns`, 32/64/128/512px) bundled for Windows/macOS/Linux installers.
 - **Keyword Search Auto-Suggest**: Instant autocomplete when selecting items, customers, or suppliers in sales/purchase bills (search by name, code, HSN, phone, GSTIN).
-- **Data Import/Export**: CSV and Excel (SpreadsheetML) export from Customers, Suppliers, Sales Invoices, Purchase Invoices, Customer Payments, Supplier Payments, Items, and Expenses pages. Verified column mappings match database types.
+  - Integrated into `InvoiceEditorPage` and `PurchaseEditorPage` via `SearchableSelect` component (`src/components/ui/searchable-select.tsx`).
+- **Data Import/Export (CSV & Excel)**: 
+  - Export from Customers, Suppliers, Sales Invoices, Purchase Invoices, Customer Payments, Supplier Payments, Items, and Expenses pages.
+  - All column mappings verified against TypeScript types (fixed `openingBalanceMinor` reference).
 - **Professional Theme**: Deep blue color palette (`--color-brand-50: #eff6ff` through `--color-brand-900: #1e293b`) for eye‑comfortable extended use.
-- **User Guide**: `USER_GUIDE.md` included with installation, workflow, and troubleshooting documentation.
+- **User Guide**: `USER_GUIDE.md` included with installation, workflows, dashboard, billing, stock, payments, reports, users, settings, backup/import, and troubleshooting.
 - **Offline‑First**: SQLite database, full data privacy, no internet required for daily operations.
 - **INR & GST**: Native Indian Rupee (integer paise, milli quantities, basis‑point taxes), GSTIN validation, GSTR‑1/GSTR‑3B summaries.
 - **Localization**: English (`en`) and Bengali (`bn`) UI; company currency/tax preferences with fallbacks.
@@ -119,7 +122,7 @@ src-tauri/
 - GST rules and print formats still require review by a qualified Indian GST professional before production use.
 
 ---
-## 🚧 Next Build Phase
+## 🚀 v1.1 – Planned Enhancements
 
 1. Full company‑settings editing (legal name, GSTIN, state, invoice footers, tax rules).
 2. Scheduled backup with integrity verification.

@@ -57,7 +57,7 @@ export function LoginPage() {
         </div>
         <div className="max-w-md">
           <h1 className="text-3xl font-semibold leading-tight text-white">
-            Run the shop counter without an internet connection.
+            Offline-first shop management
           </h1>
           <p className="mt-4 text-sm leading-relaxed text-zinc-400">
             Customers, materials, GST invoices, payments, stock, and reports stay on this
