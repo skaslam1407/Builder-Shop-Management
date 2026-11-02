@@ -3,8 +3,6 @@
 Offline-first Windows and Linux desktop application for a construction material shop: customers, materials,
 stock, purchases, GST/non-GST sales invoices, payments, expenses, reports, and backups.
 
-Product and architecture specifications live in
-[`construction-material-management-billing-system-docs/construction-material-management-billing-system/`](construction-material-management-billing-system-docs/construction-material-management-billing-system/).
 
 ## Current status
 
