@@ -6,9 +6,6 @@ stock, purchases, GST/non-GST sales invoices, payments, expenses, reports, and b
 
 ## Current status
 
-Phase 1 (foundation), master data, sales/payments, and the purchases/suppliers/expenses slice are
-implemented:
-
 - Tauri 2 + React + TypeScript + Tailwind application shell
 - SQLite database with SQLx migrations, foreign keys, WAL, and busy timeout
 - Argon2id authentication with in-memory sessions and backend-enforced permissions
@@ -34,9 +31,7 @@ implemented:
   validation, an end-to-end sales/payment flow, a purchase/payment/expense flow, report totals, and
   localization preferences
 
-Not yet implemented (schema and permissions are ready): ledger drill-downs, user administration,
-full company-settings editing beyond localization defaults, and backup/restore. Import preview and
-validation are also pending; their screens currently show a planned-module notice.
+
 
 ## Stack
 
